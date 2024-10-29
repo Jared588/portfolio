@@ -37,7 +37,7 @@ export default function Header() {
         <Link className="text-xl" href={"/"}>
           Home
         </Link>
-        <Link className="text-xl" href={"/blog"}>
+        <Link className="text-xl" href={"https://jareddevelops.vercel.app/"}>
           Blog
         </Link>
         <Link className="text-xl" href={"/portfolio"}>
@@ -77,7 +77,7 @@ export default function Header() {
           <Link className="text-xl" href={"/"} onClick={toggleMenu}>
             Home
           </Link>
-          <Link className="text-xl" href={"/blog"} onClick={toggleMenu}>
+          <Link className="text-xl" href={"https://jareddevelops.vercel.app/"} onClick={toggleMenu}>
             Blog
           </Link>
           <Link className="text-xl" href={"/portfolio"} onClick={toggleMenu}>

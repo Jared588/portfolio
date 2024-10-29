@@ -43,9 +43,9 @@ export default async function Home() {
           </div>
           <div className="flex flex-col-reverse items-center justify-center overflow-x-clip lg:flex-row lg:gap-10 lg:p-14">
             <div className="px-20 py-10">
-              <h1 className="text-6xl">Video Editing</h1>
+              <h1 className="text-6xl">Multimedia</h1>
               <h2 className="pt-2 text-xl text-blue-900">
-                Multimedia
+                Media
               </h2>
               <p className="mt-10 text-lg">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
