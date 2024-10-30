@@ -37,9 +37,6 @@ export default function Header() {
         <Link className="text-xl" href={"/"}>
           Home
         </Link>
-        <Link className="text-xl" href={"https://jareddevelops.vercel.app/"}>
-          Blog
-        </Link>
         <Link className="text-xl" href={"/portfolio"}>
           Portfolio
         </Link>
@@ -76,9 +73,6 @@ export default function Header() {
         <nav className="flex flex-col items-start gap-8 p-8 text-black">
           <Link className="text-xl" href={"/"} onClick={toggleMenu}>
             Home
-          </Link>
-          <Link className="text-xl" href={"https://jareddevelops.vercel.app/"} onClick={toggleMenu}>
-            Blog
           </Link>
           <Link className="text-xl" href={"/portfolio"} onClick={toggleMenu}>
             Portfolio
