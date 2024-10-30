@@ -49,6 +49,27 @@ export default function Portfolio() {
           </div>
 
           <div className="flex flex-col items-center py-10 lg:px-20">
+            <h1 className="text-4xl lg:text-5xl">Photo Editing 📷</h1>
+            <h2 className="pt-2 text-xl text-blue-900">Media</h2>
+            <p className="mt-10 text-lg">
+              I have a passion for photo editing, transforming images into
+              stunning visuals that tell a story. Whether it&apos;s enhancing colors,
+              retouching details, or creating unique compositions, I love
+              bringing out the best in each photo. My goal is to create
+              eye-catching images that resonate with viewers and elevate any
+              project.
+            </p>
+            <div className="flex justify-center pt-20 lg:w-1/2 lg:p-10">
+              <Image
+                src="/ps.png"
+                alt="Screenshot of PhotoShop editing software interface"
+                width={600}
+                height={300}
+              />
+            </div>
+          </div>
+
+          <div className="flex flex-col items-center py-10 lg:px-20">
             <h1 className="text-4xl lg:text-5xl">Scripting ✒️</h1>
             <h2 className="pt-2 text-xl text-blue-900">Media</h2>
             <p className="mt-10 text-lg">
@@ -58,7 +79,13 @@ export default function Portfolio() {
               that capture the audience&apos;s attention. My goal is to create
               scripts that resonate with viewers and bring the project to life.
               To see more of my writing capabilities, check out{" "}
-              <a className="text-blue-500" href="https://jareddevelops.vercel.app/">my blog</a>.
+              <a
+                className="text-blue-500"
+                href="https://jareddevelops.vercel.app/"
+              >
+                my blog
+              </a>
+              .
             </p>
           </div>
         </div>
