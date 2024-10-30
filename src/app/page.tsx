@@ -24,33 +24,41 @@ export default async function Home() {
           </svg>
         </div>
         <div>
-          <div className="flex flex-col-reverse items-center justify-center overflow-x-clip lg:flex-row lg:gap-10 lg:p-14">
-            <div className="px-20 py-10">
+          <div className="flex flex-col-reverse items-center justify-center overflow-x-clip lg:flex-row lg:p-14">
+            <div className="px-40 py-6">
               <h1 className="text-6xl">Web Development</h1>
               <h2 className="pt-2 text-xl text-blue-900">Software</h2>
               <p className="mt-10 text-lg">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                I&apos;m passionate about full-stack web development, creating
+                dynamic and user-friendly websites from the ground up. I enjoy
+                working on both the front end and back end, ensuring seamless
+                functionality and an engaging user experience. Whether it&apos;s
+                coding, debugging, or collaborating on design, I love bringing
+                ideas to life through code and making sure everything runs
+                smoothly. Check out my{" "}
+                <a className="text-blue-500" href="/portfolio">
+                  web portfolio
+                </a>
+                .
               </p>
             </div>
           </div>
           <div className="flex flex-col-reverse items-center justify-center overflow-x-clip lg:flex-row lg:gap-10 lg:p-14">
-            <div className="px-20 py-10">
-              <h1 className="text-6xl">Multimedia</h1>
+            <div className="px-40 py-6 pb-36">
+              <h1 className="text-6xl">Multimedia Production</h1>
               <h2 className="pt-2 text-xl text-blue-900">Media</h2>
               <p className="mt-10 text-lg">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                I&apos;m passionate about bringing ideas to life through various
+                forms of media. Whether it&apos;s creating and editing engaging
+                videos, producing unique music, enhancing photos, or crafting
+                compelling scripts. I love every step of the creative process.
+                My goal is to produce high-quality content that resonates with
+                audiences, elevates projects, and tells a captivating story.
+                Check out my{" "}
+                <a className="text-blue-500" href="/portfolio">
+                  media portfolio
+                </a>
+                .
               </p>
             </div>
           </div>
