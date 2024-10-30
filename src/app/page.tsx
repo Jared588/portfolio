@@ -26,7 +26,7 @@ export default async function Home() {
         <div>
           <div className="flex flex-col-reverse items-center justify-center overflow-x-clip lg:flex-row lg:p-14">
             <div className="px-40 py-6">
-              <h1 className="text-6xl">Web Development</h1>
+              <h1 className="text-5xl lg:text-6xl">Web Development</h1>
               <h2 className="pt-2 text-xl text-blue-900">Software</h2>
               <p className="mt-10 text-lg">
                 I&apos;m passionate about full-stack web development, creating
@@ -44,8 +44,8 @@ export default async function Home() {
             </div>
           </div>
           <div className="flex flex-col-reverse items-center justify-center overflow-x-clip lg:flex-row lg:gap-10 lg:p-14">
-            <div className="px-40 py-6 pb-36">
-              <h1 className="text-6xl">Multimedia Production</h1>
+            <div className="px-40 p-6 pb-36">
+              <h1 className="text-5xl lg:text-6xl">Multimedia Production</h1>
               <h2 className="pt-2 text-xl text-blue-900">Media</h2>
               <p className="mt-10 text-lg">
                 I&apos;m passionate about bringing ideas to life through various

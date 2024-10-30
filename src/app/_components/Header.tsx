@@ -38,7 +38,7 @@ export default function Header() {
           Home
         </Link>
         <Link className="text-xl" href={"/web-portfolio"}>
-          Web Portfolio
+          Web Projects
         </Link>
         <Link className="text-xl" href={"/media-portfolio"}>
           Media Portfolio
@@ -78,10 +78,10 @@ export default function Header() {
             Home
           </Link>
           <Link className="text-xl" href={"/web-portfolio"} onClick={toggleMenu}>
-            Web
+            Web Projects
           </Link>
           <Link className="text-xl" href={"/media-portfolio"} onClick={toggleMenu}>
-            Media
+            Media Portfolio
           </Link>
           <Link className="text-xl" href={"/contact-me"} onClick={toggleMenu}>
             Contact Me
