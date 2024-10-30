@@ -34,7 +34,7 @@ export default function Portfolio() {
               </Link>
               <div className="flex w-full max-w-md flex-col items-center py-10 lg:max-w-4xl lg:px-20">
                 <Link href={project.link} target="_blank">
-                  <h1 className="flex text-4xl lg:text-5xl gap-x-2">
+                  <h1 className="flex gap-x-2 text-4xl lg:text-5xl">
                     {project.title}{" "}
                     <svg
                       className="w-6 fill-blue-900"
@@ -134,16 +134,12 @@ const projects = [
     description: (
       <ul className="list-inside list-disc">
         <li>
-          Developed a water filtration management system with user-friendly
+          Developed a water filtration management site with user-friendly
           features.
         </li>
+        <li>Implemented cost calculation for better insights.</li>
         <li>
-          Implemented data tracking and reporting functionalities for better
-          insights.
-        </li>
-        <li>
-          Ensured secure and efficient data management through backend
-          integrations.
+          Ensured easy navigation and mobile compatibility
         </li>
       </ul>
     ),
