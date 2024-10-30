@@ -33,7 +33,19 @@ export default function Portfolio() {
                 </div>
               </Link>
               <div className="flex w-full max-w-md flex-col items-center py-10 lg:max-w-4xl lg:px-20">
-                <h1 className="text-4xl lg:text-5xl">{project.title}</h1>
+                <Link href={project.link} target="_blank">
+                  <h1 className="flex text-4xl lg:text-5xl gap-x-2">
+                    {project.title}{" "}
+                    <svg
+                      className="w-6 fill-blue-900"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                    >
+                      <title>open-in-new</title>
+                      <path d="M14,3V5H17.59L7.76,14.83L9.17,16.24L19,6.41V10H21V3M19,19H5V5H12V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19Z" />
+                    </svg>
+                  </h1>
+                </Link>
                 <h2 className="pt-2 text-xl text-blue-900">Software</h2>
                 <p className="mt-10 text-left text-lg">{project.description}</p>
               </div>
