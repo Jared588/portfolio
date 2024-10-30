@@ -37,8 +37,11 @@ export default function Header() {
         <Link className="text-xl" href={"/"}>
           Home
         </Link>
-        <Link className="text-xl" href={"/portfolio"}>
-          Portfolio
+        <Link className="text-xl" href={"/web-portfolio"}>
+          Web Portfolio
+        </Link>
+        <Link className="text-xl" href={"/media-portfolio"}>
+          Media Portfolio
         </Link>
         <Link className="text-xl" href={"/contact-me"}>
           Contact Me
@@ -74,8 +77,11 @@ export default function Header() {
           <Link className="text-xl" href={"/"} onClick={toggleMenu}>
             Home
           </Link>
-          <Link className="text-xl" href={"/portfolio"} onClick={toggleMenu}>
-            Portfolio
+          <Link className="text-xl" href={"/web-portfolio"} onClick={toggleMenu}>
+            Web
+          </Link>
+          <Link className="text-xl" href={"/media-portfolio"} onClick={toggleMenu}>
+            Media
           </Link>
           <Link className="text-xl" href={"/contact-me"} onClick={toggleMenu}>
             Contact Me

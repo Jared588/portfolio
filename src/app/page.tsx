@@ -55,7 +55,7 @@ export default async function Home() {
                 My goal is to produce high-quality content that resonates with
                 audiences, elevates projects, and tells a captivating story.
                 Check out my{" "}
-                <a className="text-blue-500" href="/portfolio">
+                <a className="text-blue-500" href="/media-portfolio">
                   media portfolio
                 </a>
                 .
