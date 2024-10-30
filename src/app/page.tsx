@@ -7,7 +7,7 @@ import Header from "./_components/Header";
 export default async function Home() {
   return (
     <HydrateClient>
-      <main className="flex min-h-screen flex-col items-center bg-gradient-to-b from-[#dddddd] to-[#b9b9b9] text-black">
+      <main className="flex min-h-screen flex-col items-center bg-slate-200 text-black">
         <Header />
         <div className="container flex flex-grow flex-col items-center justify-center gap-12 px-4 py-16">
           <h1 className="py-40 text-center text-5xl font-extrabold tracking-tight sm:text-[5rem]">

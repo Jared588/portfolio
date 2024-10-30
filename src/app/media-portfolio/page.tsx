@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Portfolio() {
   return (
-    <main className="flex min-h-screen flex-col items-center bg-gradient-to-b from-[#dddddd] to-[#b9b9b9] text-black">
+    <main className="flex min-h-screen flex-col items-center bg-slate-200 text-black">
       <Header />
       <div className="flex flex-grow flex-col p-6 pt-20 text-center">
         <h1 className="pb-8 text-6xl font-extrabold tracking-tight lg:text-7xl">
