@@ -36,7 +36,7 @@ export default async function Home() {
                 coding, debugging, or collaborating on design, I love bringing
                 ideas to life through code and making sure everything runs
                 smoothly. Check out my{" "}
-                <a className="text-blue-500" href="/portfolio">
+                <a className="text-blue-500" href="/web-portfolio">
                   web portfolio
                 </a>
                 .
